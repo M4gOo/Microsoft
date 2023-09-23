@@ -50,5 +50,9 @@ https://admin.microsoft.com/
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/1b2349c8-d9c2-4cc6-b41d-c446dbdbb291)
 
+So you can manage users and groups
 
+There you can access different services
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/fe08bbf0-efac-43a5-a7f4-968ad57330b3)
 
