@@ -42,6 +42,18 @@ Go to Microsoft 365 admin center dashboard > Exchange admin center > mail flow >
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/205d3e62-c8c7-4627-a2c2-f308194947ca)
 
+#### SHARED MAILBOX - EXCHANGE 
+ADD: in users tab in Microsoft 365 admin center dashboard, select a user and add a manager (this is helpful when they work in the same department, helps to get email from the customers - they will have shared email);
+\
+in exchange admin center > recipients > mailboxes > add shared mailbox > Fill out all informations required > create
+\
+Give permissions to the users in the shared mailbox: click on the sharedmailbox > under mailbox permissions click manage mailbox delegation > then edit the permissions 
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/16e0a6da-7164-4f73-b2c1-3fd5fe204f5e)
+
+In the outlook for every user add shared folder, add the email for the department
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/5fa2c775-aaaf-47f8-b4d3-4cad1be5d0f9)
 
 
 # Microsoft 365 
