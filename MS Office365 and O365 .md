@@ -143,3 +143,14 @@ There you can access different services
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/fe08bbf0-efac-43a5-a7f4-968ad57330b3)
 
+
+# AZURE DIRECTORY
+
+Everything you done in Microsoft Office 365 it is saved in Azure AD
+\
+In Azure AD you have more features, more technical level, advanced stuffs
+\
+Can revoke sessions meaning if she is login in many devices. This is good when reset, lockout acc issues
+
+
+
