@@ -12,7 +12,7 @@ to login use login.microsoft.com
 \
 At the end of creating a user, it is possible to create a template
 
-### Microsoft 365 admin center dashboard
+### Microsoft 365 admin center dashboard  admin.microsoft.com
 
 #### Users tab in Microsoft 365 admin center dashboard
 It is possible clicking in the user and straightaway reset password, block sign in and so on
@@ -20,6 +20,15 @@ It is possible clicking in the user and straightaway reset password, block sign 
 in devices you can set up mobile phone to check for example emails
 \
 can make some changes in email, like out of office, automatic replies
+
+
+### Assign users to the roles
+
+When creating a user in the optional setting select 'Admin center access' and look for the role the user it will do.
+\
+Or
+\
+in the dashboard microsoft 365 admin center on the left hand side look for roles and assign a user for a specific role (there are a list showing each role)
 
 
 
@@ -108,6 +117,10 @@ With a Cloud PC, Windows evolves from a device-based operating system (OS) to hy
 
 To thrive in this new world of hybrid work, people and organizations need solutions that are fluid, dynamic, and cloud-powered and Microsoft 365 has these solutions.
 
+### Adding users in  M365 admin center
+
+Can be made manually or using .CSV file in M365 admin center > add multiple users
+
 
 ### Stay connected from anywhere in the world and at any time, your workers are able to access:
 
@@ -156,5 +169,23 @@ In Azure AD you have more features, more technical level, advanced stuffs
 \
 Can revoke sessions meaning if she is login in many devices. This is good when reset, lockout acc issues
 
+### MFA 
+You can set up Multifactor authentication in Authentication methods > require re-register MFA  (you need to install Microsoft Authenticator on your phone when the user login)
 
+
+### Adding users using Bulk create user
+
+you need a .csv file (excel file)
+
+
+### Assign roles to a user
+
+Select user and on the left hand side select assigned roles 
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/298ae844-b10e-4938-bded-2e7d790eae8a)
+
+
+### Set up Universal Print  - portal.azure.com
+
+in the search bar type: Universal Print then set up rpinter, must have licence for that.
 
