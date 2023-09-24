@@ -23,9 +23,25 @@ can make some changes in email, like out of office, automatic replies
 
 
 
-### OneDrive
+### ONEDRIVE
 \
 Everything you create on Office 365 it is saved automatically in OneDrive, this is backup
+\
+
+### DELETED - ONEDRIVE
+
+Ask user to go to the onedrive and check the recycle bin
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/611ed20d-33a1-43e9-86db-2078a5e7228b)
+
+if it is empty the recycle bin, go to Microsoft 365 admin center > active users > select the user > select onedrive > create a link to files > then click on recycle bin. If it is not showing follow steps below (sharepoint)
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/6068eabf-9ea6-4b86-a291-3ac35802d576)
+
+Then go to the SharePoint admin center > More Features > under user profiles click on Open > select Manage User Profile > type user name in Find profiles > found the user click on the drop down arrow and select Manage Personal Site > Under Site Colletion Administrator select Recycle bin
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/13b5a895-3011-4827-ab66-e08cfa51ad0a)
+
 
 ### Teams
 \
