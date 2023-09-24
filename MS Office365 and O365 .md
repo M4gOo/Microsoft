@@ -42,6 +42,23 @@ Then go to the SharePoint admin center > More Features > under user profiles cli
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/13b5a895-3011-4827-ab66-e08cfa51ad0a)
 
+then select the file and Restore 
+
+
+Another way to revocer is under user recicle bin at bottom there is a Second-stage recycle bin, then select the file and Restore.
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/b789bcf7-3a80-45a4-9bf6-b4033c08da84)
+
+
+### SHARE POINT
+
+Organizations use Microsoft SharePoint to create websites. You can use it as a secure place to store, organize, share, and access information from any device.
+
+When creating a group in MO365 it will create a group for exchange and sharepoint (this is like facebook, discord page) services
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/a25eacb0-9248-45dc-9844-35828b66e67f)
+
+
 
 ### Teams
 \
@@ -70,6 +87,7 @@ Give permissions to the users in the shared mailbox: click on the sharedmailbox 
 In the outlook for every user add shared folder, add the email for the department
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/5fa2c775-aaaf-47f8-b4d3-4cad1be5d0f9)
+
 
 
 # Microsoft 365 
