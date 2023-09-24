@@ -60,9 +60,13 @@ When creating a group in MO365 it will create a group for exchange and sharepoin
 
 
 
-### Teams
+### TEAMS
 \
 Team is just a group chat, messaging app for your organization
+\
+if it is not showing in the office 365 try to type in the url teams.microsoft.com, if  showing 'You are missing out' Ask the admin to enable teams.
+\
+As a Administrator go to MO365, select the user which is having problem, then  Licenses and app look at for Team and enable in Apps drop box arrow
 
 
 ### Exchange
