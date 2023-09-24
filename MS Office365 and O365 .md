@@ -4,8 +4,15 @@
 
 is combined the core productivity apps such as Word, Excel, PowerPoint, OneNote, Outlook, etc., and the collaboration and communication services such as Microsoft Exchange, SharePoint, and Skype for Business. 
 
+Office 365 gives different licenses. When creating a user on Product step, In the Apps option you can remove/add access
+\
+In the optional settings is possible to give specific admin permissions
+\
+to login use login.microsoft.com
 
 ### Microsoft 365 
+
+When you assign M365 to your company it will create a Domain, this is different from the domain  created in server 2012 AD, for example.
 
 is a cloud-based service that includes the same Office apps and services, plus Windows 10, and Enterprise Mobility + Security
 
@@ -46,7 +53,7 @@ You can build Microsoft Teams apps, Office add-ins for Word, Excel, PowerPoint, 
 
 After setup the dev program acc, access the webpage below to login using your email administrator acc (created previously) and password
 
-https://admin.microsoft.com/
+https://admin.microsoft.com/   or   login.microsoft.com  (for users)
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/1b2349c8-d9c2-4cc6-b41d-c446dbdbb291)
 
