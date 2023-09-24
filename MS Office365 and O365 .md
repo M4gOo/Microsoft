@@ -1,16 +1,50 @@
 
 
-### Office 365
+# Office 365
 
 is combined the core productivity apps such as Word, Excel, PowerPoint, OneNote, Outlook, etc., and the collaboration and communication services such as Microsoft Exchange, SharePoint, and Skype for Business. 
 
-Office 365 gives different licenses. When creating a user on Product step, In the Apps option you can remove/add access
-\
+Office 365 gives different licenses. When creating a user (using Microsoft 365 admin center) on Product step, In the Apps option you can remove/add access, this user it will be shown in Azure AD admin center, but with more features, technical details to manage
+</br>
 In the optional settings is possible to give specific admin permissions
-\
+</br>
 to login use login.microsoft.com
+\
+At the end of creating a user, it is possible to create a template
 
-### Microsoft 365 
+### Microsoft 365 admin center dashboard
+
+#### Users tab in Microsoft 365 admin center dashboard
+It is possible clicking in the user and straightaway reset password, block sign in and so on
+\
+in devices you can set up mobile phone to check for example emails
+\
+can make some changes in email, like out of office, automatic replies
+
+
+
+### OneDrive
+\
+Everything you create on Office 365 it is saved automatically in OneDrive, this is backup
+
+### Teams
+\
+Team is just a group chat, messaging app for your organization
+
+
+### Exchange
+\
+A Microsoft Exchange account is a work or school email account
+\
+ISSUE: not received the email (user complaining)
+\
+Go to Microsoft 365 admin center dashboard > Exchange admin center > mail flow > message trace > start a trace (button), then fill up the itens, after that will see if it was delivered, time, etc
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/205d3e62-c8c7-4627-a2c2-f308194947ca)
+
+
+
+# Microsoft 365 
 
 When you assign M365 to your company it will create a Domain, this is different from the domain  created in server 2012 AD, for example.
 
