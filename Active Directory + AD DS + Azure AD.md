@@ -81,20 +81,48 @@ under Domain there folder (organizational unit)
 \
 once add a computer in computers folder you can manage like permissions, restrictions, security, tells where the computer is in the network
 
--> Join a computer to the domain 
+---> Join a computer to the domain <---
 \
-On SERVER
+ON SERVER
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/4a747bd6-2419-4ef9-9ec0-0d2bac60ea8a)
 
-On Computer User -> Type About or system properties or system properties -> Advanced System settings (from -> About or system properties) -> Computer Name TAB -> Change... -> Type computer name as is wrote on domain server AD and select  Member of DOMAIN (domain name is the same as is wrote on AD users and computers
+ON PC USER
+\
+-> Type About or system properties or system properties -> Advanced System settings (from -> About or system properties) -> Computer Name TAB -> Change... -> Type computer name as is wrote on domain server AD and select  Member of DOMAIN (domain name is the same as is wrote on AD users and computers, then reboot the PC
 
 !!! You need administrator credentials 
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/aec732fe-93c4-47a1-89e3-89113c66d17a)
 
+You can check in the command line (PC user) looking at DNS, host name
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/90630343-e434-44d6-a34c-75947b8a428d)
+
+ON SERVER
+\
+After pc user joined the domain, you can right click (on the server AD) on pc user and manage 
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/b411a79e-ef7a-4710-9ea5-378e141ccdc7)
 
 
+---> Set a computer permissions on domain GROUP POLICY <---
 
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/27903f36-9259-4cf1-9ae0-33828092e9ff)
+
+
+---> Add user with priv administrar permission  <---
+
+must do in the server and local
+
+add the user (memeber of) Tech Support, this group is security group
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/87dd8476-1c35-4bdf-83fe-a6a8b1440056)
+
+then manage the user pc from the server and add the new user
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/bddcc314-3b16-4657-8bd5-826d3e5ffbd5)
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/63f9ed6c-7b11-4123-bfbe-07bdd1239eb7)
 
 
