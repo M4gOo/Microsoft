@@ -87,7 +87,12 @@ On SERVER
 
 ![image](https://github.com/M4gOo/Microsoft/assets/57456345/4a747bd6-2419-4ef9-9ec0-0d2bac60ea8a)
 
-On Computer User -> Type About or system properties -> 
+On Computer User -> Type About or system properties or system properties -> Advanced System settings (from -> About or system properties) -> Computer Name TAB -> Change... -> Type computer name as is wrote on domain server AD and select  Member of DOMAIN (domain name is the same as is wrote on AD users and computers
+
+!!! You need administrator credentials 
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/aec732fe-93c4-47a1-89e3-89113c66d17a)
+
 
 
 
