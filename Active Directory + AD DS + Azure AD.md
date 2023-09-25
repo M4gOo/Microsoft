@@ -64,3 +64,32 @@ Hardware requirements:
 -> You're the IT Support professional for Contoso, a large enterprise organization that's a Microsoft Volume License customer. Contoso needs to deploy a set of Windows 11 computers for an isolated office that won't be managed for at least six months. Given Contoso's requirements, which of the following Windows 11 editions would be the most suitable for deployment? ENTERPRISE
 
 
+
+
+
+
+# ACTIVE DIRECTORY
+
+### Install windows administrative tools
+
+on PC user search on google  Install windows administrative tools, installed we can access the server remotely
+
+
+### AD Users and Computers
+
+under Domain there folder (organizational unit)
+\
+once add a computer in computers folder you can manage like permissions, restrictions, security, tells where the computer is in the network
+
+-> Join a computer to the domain 
+\
+On SERVER
+
+![image](https://github.com/M4gOo/Microsoft/assets/57456345/4a747bd6-2419-4ef9-9ec0-0d2bac60ea8a)
+
+On Computer User -> Type About or system properties -> 
+
+
+
+
+
