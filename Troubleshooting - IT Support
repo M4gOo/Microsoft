@@ -1,0 +1,318 @@
+Always introduce yourself
+
+If you can remotely access to computer user ask for the computer name or IP addr
+
+
+
+======================= Concepts ============================
+
+SafeMode - starts Windows in a basic state, using a limited set of files and drivers. Troubleshooting hardware, software issues, to remove virus safely
+Active Directory - feature of windows OS has usernames, policies (apply permissions), groups. Computers can connect directly to the domain
+Domain - can refer to how the internet is structured, also refers to how an organization's network resources are organized. Has computers name, printers, group policies 
+BSOD - pc crash, can be a hardware or software issue
+APIPA - 169.254.XXX.XXX this is when the DHCP server isn't reachable
+VPN - used to connect the company network, protects its users by encrypting their data and masking their IP addresses
+Group Policy - allows you to specify managed configurations for users, gives some permissions to users and/or groups to do certian things
+.pst - archive fil from outlook data 
+Recover HD from virus - slave to a second computers with all updates and scan for virus from there save the data
+
+============================= DOESN'T TURN ON ============================
+
+Wall socket has eletricity?
+
+Power cable fuse is ok?
+Power cable is reliable?
+
+Monitor is ok? check the button is pressed, loose power cable or video signal cable, wrong conf display settings (resolution)
+
+All cables are seated properly?
+
+Any switch button in the power supply?
+
+Power supply dead? You were working in the PC/laptop and shut down or when that happened?
+Check any smell burned.
+
+Motherboard dead?
+Check the capacitor are swelled up, check smell, check baterry CMOS (very rare)
+
+heat sink - dust, clip are clip in
+
+Power cables  are properly seated?
+
+Custom PC the swtich cables are connected?
+
+The video card, memory are seated properly
+
+POST code check the beeps online
+
+
+-------- LAPTOP
+
+Remove battery and turno on with the power cable (hold power button for 10 seconds)
+
+Move around your laptop to see if there is any part lose inside the laptop
+
+
+
+
+============================= BSOD ============================
+
+It is driver or hardware issue
+Upgrade drivers, did you install/update anything recently, run hardware diagnostic
+
+
+========================== .DLL files ======================================
+
+missin .DLL files - cause for incomplete software/program installation
+Solution:
+reinstall the software
+finding missin dll and copy it to system32 and or SysWOW6432 folder
+register dll if needed through cmd. regsvr32 <name_of_dll>
+
+
+===================== software/application will not install =========================
+
+install cause not enough drive space
+
+newer version already installed you
+
+You didn't install prerequisite software for example direct x or not compatible with the
+operating system 
+
+Solution: 
+free up space
+on hard drive look for previous
+installation of newer software install
+all prerequisites acquire compatible OS number for software or OS is running
+
+
+=================== Software or OS is running slow ======================================
+
+lack of resources such as RAM CPU or hard drive 
+virus or malware infection 
+missing updates 
+
+Solution: 
+open task manager and look for RAM or virtual memory allocation any applications use all of the RAM 
+adjust virtual memory if necessary 
+check CPU/HD usage levels check your
+
+check the system processes and look for sketchy names using a lot of CPU or Ram
+virus can have similar name to common windows components perform full system
+
+scan for viruses if you have a virus that you can't remove consider OS reimage or reinstall 
+
+install all updates for your computer let them finish reboot updates can take up resources and time
+
+you can also upgrade to an SSD storage for a huge boost in OS performance link and description below
+
+
+============== Computer restarting multiple times =======================================
+
+software or Windows updates or a virus 
+
+solution:
+let the Windows updates finish when those updates alone can restart the computer many times and take a long time
+
+run virus scan
+
+
+======= Suddenly, applications or computer behaving abnormally ======================
+
+virus infection or hard drive going bad
+
+Solution:
+
+run virus scan
+
+check Windows system logs for NTFS system errors or other or other hard drive related logs 
+
+replace hard drive if necessary
+
+
+========= Internet/Web Site issue: Error 404 Page not found ===============================
+
+webpage is missing or deleted
+wrong website link 
+website is down 
+
+Solution:
+
+double check the website link
+
+if all pages are 404 contact website owner number
+
+
+============== low memory - RAM or HD ===========================
+
+too many programs open (check task manager)
+
+Solution: 
+use only one app one at a time
+perform disk clean
+clean cache
+buy more memory
+
+
+================== very slow internet ===============================
+
+to many PC sharing internet connection
+too many downloads at the same time
+bad wifi signal
+virus/malware
+
+Solution:
+limit downloads
+too many connections limit or set max speed in router for even distribution of bandwidth
+reset router
+run virus/malware scan
+check wifi distance with your phone to see how strong is the signal
+
+
+======================= Missing files ==============================
+
+user deleted/forgot the data
+system crash
+OS reinstall
+bad storage
+
+Solution:
+Check recycle bin
+check backup storage (if any)
+restore folder/files function
+windows restore point
+
+
+===================== CANNOT RECEIVE OR SEND EMAILS ===========================================
+
+inbox limit size
+windows password change
+data corruption
+
+Solution:
+delete old emails
+delete old calendar items with large attachments
+update password for email client
+clear chache for internet email clients
+
+
+================ The printer is not working ====================
+
+printer not installed
+wrong printer 
+no paper or ink 
+bad driver or configuration
+
+Solution:
+install printer
+change default printer
+add paper/ink
+use correct driver/conf
+
+
+================== can't login to PC ===========================
+
+Password was changed
+acc locked
+typo
+Caps Lock on
+
+Reset password
+
+=============== cant login after password change ======================
+
+not using the new password
+acc locked
+typo
+Caps Lock on
+
+Reset password
+
+
+
+===================  Windows Start Menu not Working ===================================
+
+Try to rebbot the system
+
+
+go to task manager (ctrl + alt + del  OR   right click task bar) > Service tab find "WSearch" (must be running)
+in task manager go to processes tab and restart windows explore
+go to powershell (as admin)
+  type: sfc /scannow  -> The command will scan all protected system files, and replace corrupted files 
+                          with a cached copy that is located in a compressed folder at %WinDir%\System32\dllcache
+
+                        It will give some output like:
+Windows Resource Protection found corrupt files and successfully repaired them.
+For online repairs, details are included in the CBS log file located at
+windir\Logs\CBS\CBS.log. For example C:\Windows\Logs\CBS\CBS.log. For offline
+repairs, details are included in the log file provided by the /OFFLOGFILE flag.
+
+  type: DISM /Online /Cleanup-image /RestoreHealth  
+
+
+If after all command need to re image windows
+
+
+======================== PDF not working ======================
+
+The pdf reader is installed?
+
+Choose default apps by file type   (type in the search bar)
+look for .pdf and change for AdobeReader
+
+
+
+========================= VPN ==================================
+
+use a vpn software to connect to the company network, this is different from vpn in the webbrowser which only hides your location
+vpn enterprise are different
+
+vpn enterprise ask 
+username - which is your username for that domain 
+password - is the password for the username in that domain
+second password - usually it is the RSA token (one time password)
+
+there will be a lot vpn server, choose one of those
+sometimes need to add the vpn server connection manually
+
+To download the VPN
+some companies set up a website (give you a link), so user can download 
+
+Change password.
+Go to AD > users > find user > acc tab > if it is lock tick the box unlock and apply changes, select user must change passwword
+
+If the userwatns only reset password, find the user, right click in user name and select reset password.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
