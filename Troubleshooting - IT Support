@@ -285,9 +285,12 @@ If the userwatns only reset password, find the user, right click in user name an
 
 
 
+================= DHCP ======================================
 
+on AD server under DHCP > IPv4 will see the scope whic means the range of IP addr will be used
 
-
+add an Reserved IP, check the MAC addr of the device (pc, printer, ...)
+IPv4 > Reservations (right click) > new reservation > fill out with the info
 
 
 
