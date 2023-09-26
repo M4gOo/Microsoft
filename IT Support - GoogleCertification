@@ -10,6 +10,8 @@ Using failure as a feedback is an important skill both in IT and in life, that's
 
  As long as you're able to get to a point where you feel comfortable working with users, fixing their problems and supporting them in the best way for you and them.
 
+We're starting to understand that technology is ubiquitous, everyone uses it, why can't everyone support it as well?
+
 ----------------------------- binary ---------------------
 
 The communication that a computer uses is referred to as binary system, also known as base-2 numeral system. This means that it only talks in ones and zeros.
@@ -31,12 +33,21 @@ That's one of the very basic building blocks of programming that's led to the cr
 
 There are 256 values in a byte, from the decimal number 0 to 255, which is the highest value since the count starts at 0. 
 
+Decimal nomenclature: kilobyte, megabyte, gigabyte
+Binary nomenclature: kibibyte, mebibyte, gibibyte - (example: megabyte + binary + byte= mebibyte)
 
 ------------------------------------------------------------------
 
  The operating system allows hardware to communicate with the system. Hardware is created by many different manufacturers. The operating system allows them to be used with our system regardless of where it came from.
 
 
+================= hardware ====================
+
+CPUs that have 32-bit or 64-bit architecture are just specifying how much data they can efficiently handle.
+
+Every motherboard has a few key characteristics. First is the chipset, which decides how components talk to each other on our machine. 
+The chipset on motherboards is made up of two chips. One is called the Northbridge that interconnects stuff like RAM and video cards. 
+The other chip is the Southbridge, which maintains our IO or input-output controllers, like hard drives and USB devices, that input and output data. 
 
 
 
