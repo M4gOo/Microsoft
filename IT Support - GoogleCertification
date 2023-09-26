@@ -97,3 +97,23 @@ You can touch an electrical device that's plugged in but not powered on. Fyi, yo
 Another option is to wear an anti-static wristband
 
 
+=================== Operating System
+
+There are two main parts to an operating system, the kernel and the user space. 
+
+The kernel is the main core of an operating system. It talks directly to our hardware and manages our system's resources.
+The user space is everything outside the kernel. These are the things that we interact with directly, like programs such as text editors, music players, system settings, user interfaces, etcetera.
+
+---kernel 
+The kernel does file storage and file management.
+
+Another important function of the kernel is process management. We have many programs that we want to run on our system. To run them we manage the order they run in,
+how many resources they take up, how long they run, etc. Our kernel helps us do this with its process management capabilities.
+
+The process scheduler is part of the kernel that makes this multitasking possible. It switches the execution of each different process on the CPU faster than you can blink 
+and it gives you the illusion that things are happening simultaneously. 
+
+ Our kernel optimizes memory usage and make sure our applications have enough memory to run. 
+
+kernel performs input, output or IO management. This is how our kernel talks to external devices, like disks, keyboards, networks, connections, audio devices and more
+
