@@ -49,7 +49,18 @@ Every motherboard has a few key characteristics. First is the chipset, which dec
 The chipset on motherboards is made up of two chips. One is called the Northbridge that interconnects stuff like RAM and video cards. 
 The other chip is the Southbridge, which maintains our IO or input-output controllers, like hard drives and USB devices, that input and output data. 
 
+about batteries and charge cycles for 
+Windows    https://learn.microsoft.com/pt-br/windows-hardware/design/device-experiences/powercfg-command-line-options#option_batteryreport
+Macs       https://support.apple.com/en-gb/HT201585
 
+check out: 
+Safe handling of lithium-ion batteries   https://www.osha.gov/sites/default/files/publications/shib011819.pdf
+
+
+how to maximize your batteries for 
+iOS   https://www.apple.com/batteries/maximizing-performance/
+or 
+Android - https://support.google.com/android/answer/7664692?visit_id=638313525088509381-3118279278&rd=1&hl=en-GB&sjid=14012831881146478807-EU
 
 
 
