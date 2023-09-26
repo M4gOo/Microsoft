@@ -62,5 +62,38 @@ iOS   https://www.apple.com/batteries/maximizing-performance/
 or 
 Android - https://support.google.com/android/answer/7664692?visit_id=638313525088509381-3118279278&rd=1&hl=en-GB&sjid=14012831881146478807-EU
 
+MB is megabyte (unit of storage)
+Mb/s is megabit per second (unit of data transfer rate)
+To transfer a one megabyte file in a second, you need an eight megabits per second connection speed.
+
+-------------- PROJECTOR
+
+linux
+https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html
+win
+https://support.microsoft.com/pt-br/windows/conectar-a-um-projetor-ou-um-computador-7e170c39-58dc-c866-7d55-be2372632892
+
+if your computer does not correctly recognize the display resolution of the projector it may default to a very low-resolution VGA mode like 640x480 or 1024x768. 
+If this happens, your computer may need a device driver for your projector. 
+Take a look at the support website for your projector's manufacturer!
+
+
+--------------- BIOS
+
+The bios isn't stored on a hard drive. 
+Our motherboard stores the bios in a special type of memory called the read only memory chip (ROM chip) 
+Unlike RAM, ROM is non-volatile, meaning it won't erase the data if the computer is turned off. 
+
+
+When you turn on a computer, our computers run a test to make sure all the hardware is working correctly. 
+This is called a power-on self-test (POST). The bios runs it when you boot up your computer. 
+The POST figures out what hardware is on the computer. It happens before the BIOS initializes any hardware or loads up essential drivers. 
+
+CMOS chip stores basic data about boosting your computer, like the date, time, and how you want it to start up. 
+
+-------------- anti-static
+How do we prevent static discharge? We can go about this in two ways. 
+You can touch an electrical device that's plugged in but not powered on. Fyi, you should do this every couple of minutes when assembling a new computer. 
+Another option is to wear an anti-static wristband
 
 
