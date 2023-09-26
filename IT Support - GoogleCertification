@@ -8,6 +8,8 @@ Being an IT generalist also gave me the flexibility to learn and practice so man
 
 Using failure as a feedback is an important skill both in IT and in life, that's why I was so attracted to the IT field. 
 
+----------------------------- binary ---------------------
+
 The communication that a computer uses is referred to as binary system, also known as base-2 numeral system. This means that it only talks in ones and zeros.
 
 a group of eight bits is referred to as a byte. A byte of zeros and ones could look like 10011011. Each byte can store one character, and we can have 256 possible values 
@@ -20,4 +22,8 @@ It's not possible to make emojis with a single byte since we can only store one 
 Instead, UTF-8 allows us to store a character in more than one byte, which means endless emoji fun. UTF-8 is built off the Unicode Standard.
 the Unicode Standard helps us represent character encoding in a consistent manner. Now that we've been able to represent letters, numbers, punctuation marks, and even emojis,
 
+Binary in today's computer uses electricity via transistors allowing electrical signals to pass through. If there's an electric voltage, we would denote it as one, if there isn't, we would denote it by zero. 
+Today we have something known as logic gates. Logic gates allow our transistors to do more complex tasks like decide where to send electrical signals depending on logical conditions. 
+how we're able to turn human-readable instructions into zeros and ones that our computer understands through compilers.
+That's one of the very basic building blocks of programming that's led to the creation of our favorite social media sites, video games, and just about everything else.
 
