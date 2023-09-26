@@ -13,5 +13,11 @@ The communication that a computer uses is referred to as binary system, also kno
 a group of eight bits is referred to as a byte. A byte of zeros and ones could look like 10011011. Each byte can store one character, and we can have 256 possible values 
 In computer talk, this byte can mean something like the letter c. 
 http://sticksandstones.kstrom.com/appen.html
+The ASCII lasted for a very long time, but eventually, it wasn't enough. Other character encoding standards were created to represent different languages, different amounts of characters, and more. 
+Eventually, they would require more than 256 values we are allowed to have. 
+Then came UTF-8, the most prevalent encoding standard used today. Along with having the same ASCII table, it also lets us use a variable number of bytes. 
+It's not possible to make emojis with a single byte since we can only store one character in a byte. 
+Instead, UTF-8 allows us to store a character in more than one byte, which means endless emoji fun. UTF-8 is built off the Unicode Standard.
+the Unicode Standard helps us represent character encoding in a consistent manner. Now that we've been able to represent letters, numbers, punctuation marks, and even emojis,
 
 
