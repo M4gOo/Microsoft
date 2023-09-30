@@ -15,6 +15,9 @@ We're starting to understand that technology is ubiquitous, everyone uses it, wh
 I enjoy learning I enjoy learning a lot of things. I enjoy picking up new skills. Technology is a real equalizer 
 I think what's available now is amazing and I think I wish I'd had that ten years ago when I started.
 
+As an IT professional, you may be required to maintain two or more versions of an operating system at the same time. IT professionals need to stay on top of changes and new development to ensure they can support their users. 
+
+when you make a mistake you learn about troubleshooting and how to fix bugs.
 
 ----------------------------- binary ---------------------
 
@@ -107,6 +110,16 @@ There are two main parts to an operating system, the kernel and the user space.
 
 The kernel is the main core of an operating system. It talks directly to our hardware and manages our system's resources.
 The user space is everything outside the kernel. These are the things that we interact with directly, like programs such as text editors, music players, system settings, user interfaces, etcetera.
+
+Random Access Memory (RAM) Support Limitations: In Windows 10, the lowest RAM (Random Access Memory) requirements are 1GB for 32-bit versions and 2GB for 64-bit versions. In Windows 11, the base requirement is 4GB of RAM.
+
+Bitlocker: Bitlocker, a drive encryption tool included with Windows, is largely unchanged. Note that Bitlocker is only available for Pro and Enterprise licenses of Windows.
+
+
+ChromeOS are that it's extremely simple to use and very hard for users to meddle with. Since users don't have administrator rights on their ChromeOS machines, they won't be able to alter the system configuration. 
+Also, ChromeOS has an automatic update mechanism that includes a fail-safe in case anything goes wrong. 
+This means that the user doesn't need to worry about problems or hacks in the system because it's designed to stay up and running. 
+
 
 ---kernel 
 
@@ -201,6 +214,25 @@ https://www.makeuseof.com/tag/make-bootable-usb-cd-dvd-install-windows-using-iso
 
 How to build your own bootable Linux Live CD
 https://www.makeuseof.com/tag/build-bootable-linux-live-cd/
+
+ To load the image onto your USB device and make it bootable, you can use a tool like etcher.io
+
+========================= Virtual Machines
+
+A virtual machine is just a copy of a real machine.
+I can use an application like Virtual Box to install Linux, and have it completely isolated from my machine. 
+Virtual machines use physical resources like memory, CPU, and storage, but they offer the added benefit of running multiple operating systems at once. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
