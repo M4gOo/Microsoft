@@ -105,6 +105,9 @@ The kernel is the main core of an operating system. It talks directly to our har
 The user space is everything outside the kernel. These are the things that we interact with directly, like programs such as text editors, music players, system settings, user interfaces, etcetera.
 
 ---kernel 
+
+The BIOS lives in your motherboard. The kernel lives in your boot drive
+
 The kernel does file storage and file management.
 
 Another important function of the kernel is process management. We have many programs that we want to run on our system. To run them we manage the order they run in,
@@ -116,4 +119,55 @@ and it gives you the illusion that things are happening simultaneously.
  Our kernel optimizes memory usage and make sure our applications have enough memory to run. 
 
 kernel performs input, output or IO management. This is how our kernel talks to external devices, like disks, keyboards, networks, connections, audio devices and more
+
+
+=================== File System
+
+ There are three main components to handling files handlers, the file data, metadata, and file system.
+ new hard disks that we want to store data on, we need to erase and configure the disk. This way operating system can read and write data to it. This is important since it's how our operating system keeps tracks of files.
+Some file systems support the storage of large amounts of data others only support small amounts. They can operate in different speeds and have varying resiliency towards file corruption and so on.
+
+For Windows, the major file system that's used is NTFS.
+For Linux, different distributions will use different file system types. A standard for file systems for Linux is EXT4.
+ A good guideline to use is just to use the file system that your operating system recommends. 
+
+file management is the storage of actual file data.
+We write data to our hard drive in the form of data blocks. When we say something to our hard disks, it doesn't always sit in one piece. It can be broken down into many pieces and written to different parts of the disk. 
+Block storage improves faster handling of data, because the data isn't stored on one long piece, and it can be accessed quicker. It's also better for utilizing storage space. 
+
+we need to keep the metadata that contains the information about our file. There's a lot of information about our file that we want to know, who created it, when it was last modified, who has access to it, and so on. 
+The file metadata tells us everything we need to know about our file, also tells us what type of file it is. A file extension is the appended part of a filename that tells us what type of file it is in certain operating systems.
+
+
+========================== Process Management
+
+kernel on of the taks is process management. A process is a program that's executing, like our Internet browser, text editor, a program like Chrome 
+We can have many processes of the same program running at the same time (Chrome windows you can opened at the same time). These are all different processes for the same program.
+
+Our kernel has to manage our resources efficiently so that all the programs we want to use can be run. 
+Our system is actually constantly running multiple processes that are necessary for it to function. Our kernel has to worry about all of these processes at once.
+
+----- CPU
+It executes processes one-by-one through something known as a time slice. A time slice is a very short interval of time that gets allocated to a process for CPU execution.
+
+----Memory
+When processes are run, they have to take up space in memory, so that the computer can read and load them quickly. 
+compared to our hard disk drives, memory comes in smaller quantities. So to give us more memory than we physically have, we use something called virtual memory. 
+Virtual memory is the combination of hard drive space and RAM that acts like memory that our processes can use.
+When we execute a process, we take the data of the program in chunks we call pages. We store these pages in virtual memory. If we want to read and execute these pages, they have to be sent to physical memory or RAM. 
+When we store our virtual memory on our hard drive, we call the allocated space swap space.
+It handles the process of taking pages of data and swapping them between RAM and virtual memory.
+
+
+-----I/O
+I/O devices are all managed by our kernel, the kernel needs to be able to load up drivers that are used so that we can recognize and speak to these different types of hardware
+
+When you're troubleshooting or solving a problem with a slow machine it's usually some sort of hardware resource deficiency. 
+
+
+====== userspace
+
+There are two ways that we can interact with our OS. With a shell or graphical user interface. 
+A shell is basically a program that interprets text commands and sends them to the OS to execute.
+
 
