@@ -225,8 +225,13 @@ Virtual machines use physical resources like memory, CPU, and storage, but they 
 
 
 
+===================== networking
+
+IP is responsible for delivering our packets to the right computers. The Internet Protocol helps us route information. 
+The Transmission Control Protocol, or TCP, is a protocol that handles reliable delivery of information from one network to another. 
 
 
+All websites can be accessed through the web. Websites are basically text documents that we format with HTML or HyperText Markup Language. It's a coding language used by web browsers. 
 
 
 
