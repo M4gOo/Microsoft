@@ -87,6 +87,7 @@ Take a look at the support website for your projector's manufacturer!
 
 --------------- BIOS
 
+ The BIOS is software that is stored permanently on hardware means it is a firmware
 The bios isn't stored on a hard drive. 
 Our motherboard stores the bios in a special type of memory called the read only memory chip (ROM chip) 
 Unlike RAM, ROM is non-volatile, meaning it won't erase the data if the computer is turned off. 
@@ -234,10 +235,25 @@ The Transmission Control Protocol, or TCP, is a protocol that handles reliable d
 All websites can be accessed through the web. Websites are basically text documents that we format with HTML or HyperText Markup Language. It's a coding language used by web browsers. 
 
 
+====================== software
+
+programs are instructions that are given to a CPU. We can send binary code or bits to our CPU, then they'll use an instruction set to run those commands.
+But these CPUS might be from different manufacturers and may have different instructions.
+There might even be all kinds of different hardware components like video cards and hard drives that also have their own special interfaces.
+We can write a program for each possible combination of CPU and hardware using the native languages and interfaces of these components, 
+but there are potentially millions of possible configurations of hardware. 
+Better way is, the efforts of computer scientists and the principle of abstraction, we can now use programming languages to write instructions that can be run on any hardware.
 
 
+A program was needed that could run on many types of CPUs, enter compiled programming languages. A compiled programming language uses human readable instructions and sends them through a compiler. 
+The compiler takes the human instructions and compiles them into machine instructions. 
 
+Along the way, another type of language emerged that was interpreted rather than compiled, interpreted languages aren't compiled ahead-of-time.
+A file that has code written in one of these languages is usually called a script. The script is run by an interpreter which interprets the code into CPU instructions just in time to run them.
 
+Developers are releasing updates. Software companies change, features are added, and so on. This constant change is completely out of our control and it can cause a lot of headaches in the IT world.
+You should always test new software before letting your company use it. Another thing to worry about is old software. 
+When you run old software on your machine, you risk being exposed to cyber security attacks that take advantage of software bugs.
 
 
 
