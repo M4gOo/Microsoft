@@ -8,9 +8,13 @@ Being an IT generalist also gave me the flexibility to learn and practice so man
 
 Using failure as a feedback is an important skill both in IT and in life, that's why I was so attracted to the IT field. 
 
- As long as you're able to get to a point where you feel comfortable working with users, fixing their problems and supporting them in the best way for you and them.
+As long as you're able to get to a point where you feel comfortable working with users, fixing their problems and supporting them in the best way for you and them.
 
 We're starting to understand that technology is ubiquitous, everyone uses it, why can't everyone support it as well?
+
+I enjoy learning I enjoy learning a lot of things. I enjoy picking up new skills. Technology is a real equalizer 
+I think what's available now is amazing and I think I wish I'd had that ten years ago when I started.
+
 
 ----------------------------- binary ---------------------
 
@@ -179,14 +183,24 @@ First, the computer is powered on.
 The BIOS/UEFI is a low-level software that initializes our computer's hardware to make sure everything is good to go. The bios UEFI runs a process called the power-on self-test, or post. 
 The post performs a series of diagnostic tests to make sure that the computer is in proper working order. 
 Next, depending on the bios or UEFI configuration of boot device will be selected. The devices will be checked in this order and the computer will search for what's known as a bootloader. 
+The BIOS will run the first bootloader that it finds.
 The bootloader is a small program that loads the operating system. Once our computer finds a bootloader on a device in the listed order, it will start to execute this program. 
 Once the bootloader loads up our operating system, our kernel gets loaded. 
 The kernel controls access to our computer's resources. It also loads up drivers and more so that our hardware can talk to our software.
 Next, essential system processes and user space items are launched. These include processes like user login, spinning up a desktop environment, and more which basically allows us to interact with our system. 
 
 
+having two operating systems can be helpful for various reasons, it is especially helpful when one system is failing or unable to boot. 
+If this happens, you can still boot the computer using the other system and troubleshoot from there. 
 
+The USB drive and optical media methods are useful for recovering a computer with a corrupted OS. They can also be used to start up a computer with a different OS. 
+For example, you might boot a Windows computer in a Linux environment by using a USB with Linux OS
 
+How to make a bootable CD/DVD/USB to install windows
+https://www.makeuseof.com/tag/make-bootable-usb-cd-dvd-install-windows-using-iso-file/
+
+How to build your own bootable Linux Live CD
+https://www.makeuseof.com/tag/build-bootable-linux-live-cd/
 
 
 
